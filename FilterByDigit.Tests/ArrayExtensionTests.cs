@@ -30,4 +30,5 @@ namespace FilterByDigit.Tests
         }
 
         //TODO: Add tests for Exception cases here.
+    }    
 }
