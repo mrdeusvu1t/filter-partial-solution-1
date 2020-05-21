@@ -6,8 +6,13 @@ namespace FilterByDigit
     {
         //TODO: Add code here if necessary.
         
-        //TODO: Add parameters to the method if necessary
-        static partial void AddAccordingToPredicate()
+        public static int Digit
+        {
+            get => throw new NotImplementedException();
+            set  => throw new NotImplementedException();
+        }
+        
+        static partial void AddAccordingToPredicate(List<int> list, int item)
         {
             throw new NotImplementedException("");
         }
