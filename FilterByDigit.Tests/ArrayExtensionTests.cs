@@ -27,7 +27,5 @@ namespace FilterByDigit.Tests
             ArrayExtension.Digit = digit;
             return source.FilterByPredicate();
         }
-
-        //TODO: Add tests for Exception cases here.
     }    
 }
