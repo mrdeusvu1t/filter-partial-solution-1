@@ -24,8 +24,7 @@ namespace FilterByDigit.Tests
         [TestCase(new[] {0, 0, 0, 0, 0}, 0, ExpectedResult = new int[] {0, 0, 0, 0, 0})]
         public int[] FilterByDigit_WithCorrectDigits_ReturnNewArray(int[] source, int digit)
         {
-            //TODO: Add code if necessary.
-            
+            ArrayExtension.Digit = digit;
             return source.FilterByPredicate();
         }
 
