@@ -13,7 +13,7 @@ namespace FilterByDigit
         
         static partial void AddAccordingToPredicate(List<int> list, int item)
         {
-            throw new NotImplementedException("");
+            throw new NotImplementedException();
         }
     }
 }
