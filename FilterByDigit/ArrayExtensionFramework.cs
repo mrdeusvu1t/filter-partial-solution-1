@@ -17,6 +17,6 @@ namespace FilterByDigit
             throw  new NotImplementedException();
         }
 
-        static partial void AddAccordingToPredicate(List<int> list, int item);
+        static partial void AddAccordingToPredicate(ICollection<int> list, int item);
     }
 }
