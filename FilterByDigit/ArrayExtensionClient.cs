@@ -4,8 +4,6 @@ namespace FilterByDigit
 {
     public static partial class ArrayExtension
     {
-        //TODO: Add code here if necessary.
-        
         public static int Digit
         {
             get => throw new NotImplementedException();
