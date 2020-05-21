@@ -16,7 +16,6 @@ namespace FilterByDigit
             throw  new NotImplementedException();
         }
 
-        //TODO: Add parameters to the method if necessary.
-        static partial void AddAccordingToPredicate();
+        static partial void AddAccordingToPredicate(List<int> list, int item);
     }
 }
